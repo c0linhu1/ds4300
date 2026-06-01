@@ -1,0 +1,198 @@
+QUERY 1: Technology companies by market cap
+Question: Which companies are in the Technology industry?
+{'symbol': 'AAPL', 'name': 'Apple Inc', 'market_cap': 4583336.595549074}
+{'symbol': 'MSFT', 'name': 'Microsoft Corp', 'market_cap': 3344578.304443692}
+{'symbol': 'ORCL', 'name': 'Oracle Corp', 'market_cap': 649353.6332211503}
+{'symbol': 'PLTR', 'name': 'Palantir Technologies Inc', 'market_cap': 375275.25614215777}
+{'symbol': 'IBM', 'name': 'International Business Machines Corp', 'market_cap': 279897.8299059314}
+{'symbol': 'CRM', 'name': 'Salesforce Inc', 'market_cap': 156330.07419964866}
+{'symbol': 'ADBE', 'name': 'Adobe Inc', 'market_cap': 104772.68622354267}
+{'symbol': 'SNOW', 'name': 'Snowflake Inc', 'market_cap': 88574.37131294399}
+
+
+QUERY 2: Top 10 companies by market cap
+Question: What are the 10 largest companies by market cap?
+{'symbol': 'NVDA', 'name': 'NVIDIA Corp', 'industry': 'Semiconductors', 'market_cap': 5109588}
+{'symbol': 'GOOGL', 'name': 'Alphabet Inc', 'industry': 'Media', 'market_cap': 4608199.4399999995}
+{'symbol': 'AAPL', 'name': 'Apple Inc', 'industry': 'Technology', 'market_cap': 4583336.595549074}
+{'symbol': 'MSFT', 'name': 'Microsoft Corp', 'industry': 'Technology', 'market_cap': 3344578.304443692}
+{'symbol': 'AMZN', 'name': 'Amazon.com Inc', 'industry': 'Retail', 'market_cap': 2911304.08125}
+{'symbol': 'AVGO', 'name': 'Broadcom Inc', 'industry': 'Semiconductors', 'market_cap': 2115307.5418140446}
+{'symbol': 'TSLA', 'name': 'Tesla Inc', 'industry': 'Automobiles', 'market_cap': 1636706.8245397694}
+{'symbol': 'META', 'name': 'Meta Platforms Inc', 'industry': 'Media', 'market_cap': 1605577.955993358}
+{'symbol': 'WMT', 'name': 'Walmart Inc', 'industry': 'Retail', 'market_cap': 1069706.93}
+{'symbol': 'LLY', 'name': 'Eli Lilly and Co', 'industry': 'Pharmaceuticals', 'market_cap': 1040624.285511231}
+
+
+QUERY 3: Value stocks (PE ratio under 15)
+Question: Which companies have a PE ratio below 15?
+{'symbol': 'CHTR', 'name': 'Charter Communications Inc', 'industry': 'Media', 'metrics': {'peNormalizedAnnual': 4.0001}}
+{'symbol': 'CMCSA', 'name': 'Comcast Corp', 'industry': 'Telecommunication', 'metrics': {'peNormalizedAnnual': 4.4425}}
+{'symbol': 'PYPL', 'name': 'PayPal Holdings Inc', 'industry': 'Financial Services', 'metrics': {'peNormalizedAnnual': 7.5433}}
+{'symbol': 'T', 'name': 'AT&T Inc', 'industry': 'Telecommunication', 'metrics': {'peNormalizedAnnual': 7.8494}}
+{'symbol': 'DAL', 'name': 'Delta Air Lines Inc', 'industry': 'Airlines', 'metrics': {'peNormalizedAnnual': 10.827}}
+{'symbol': 'WFC', 'name': 'Wells Fargo & Co', 'industry': 'Banking', 'metrics': {'peNormalizedAnnual': 10.9356}}
+{'symbol': 'UAL', 'name': 'United Airlines Holdings Inc', 'industry': 'Airlines', 'metrics': {'peNormalizedAnnual': 11.1126}}
+{'symbol': 'VZ', 'name': 'Verizon Communications Inc', 'industry': 'Telecommunication', 'metrics': {'peNormalizedAnnual': 11.6047}}
+{'symbol': 'CB', 'name': 'Chubb Limited', 'industry': 'Insurance', 'metrics': {'peNormalizedAnnual': 11.7272}}
+{'symbol': 'BAC', 'name': 'Bank of America Corp', 'industry': 'Banking', 'metrics': {'peNormalizedAnnual': 12.0025}}
+{'symbol': 'JPM', 'name': 'JPMorgan Chase & Co', 'industry': 'Banking', 'metrics': {'peNormalizedAnnual': 14.0584}}
+{'symbol': 'UBER', 'name': 'Uber Technologies Inc', 'industry': 'Road & Rail', 'metrics': {'peNormalizedAnnual': 14.2551}}
+{'symbol': 'DIS', 'name': 'Walt Disney Co', 'industry': 'Media', 'metrics': {'peNormalizedAnnual': 14.2558}}
+{'symbol': 'EOG', 'name': 'EOG Resources Inc', 'industry': 'Energy', 'metrics': {'peNormalizedAnnual': 14.2655}}
+{'symbol': 'ADBE', 'name': 'Adobe Inc', 'industry': 'Technology', 'metrics': {'peNormalizedAnnual': 14.6946}}
+
+
+QUERY 4: Average market cap by industry
+Question: What is the average market cap for each industry?
+{'count': 6, 'industry': 'Semiconductors', 'avg_market_cap': 1530933.75}
+{'count': 8, 'industry': 'Technology', 'avg_market_cap': 1197764.84}
+{'count': 5, 'industry': 'Retail', 'avg_market_cap': 968313.09}
+{'count': 9, 'industry': 'Media', 'avg_market_cap': 774071.7}
+{'count': 1, 'industry': 'Communications', 'avg_market_cap': 474627.58}
+{'count': 5, 'industry': 'Pharmaceuticals', 'avg_market_cap': 428447.43}
+{'count': 4, 'industry': 'Banking', 'avg_market_cap': 403058.16}
+{'count': 5, 'industry': 'Automobiles', 'avg_market_cap': 360871.09}
+{'count': 1, 'industry': 'Consumer products', 'avg_market_cap': 334293.7}
+{'count': 10, 'industry': 'Financial Services', 'avg_market_cap': 314636.39}
+{'count': 2, 'industry': 'Machinery', 'avg_market_cap': 274952.45}
+{'count': 2, 'industry': 'Beverages', 'avg_market_cap': 268506.74}
+{'count': 3, 'industry': 'Biotechnology', 'avg_market_cap': 244446.24}
+{'count': 2, 'industry': 'Aerospace & Defense', 'avg_market_cap': 212080.61}
+{'count': 7, 'industry': 'Energy', 'avg_market_cap': 202484.0}
+{'count': 1, 'industry': 'Utilities', 'avg_market_cap': 181445.57}
+{'count': 5, 'industry': 'Health Care', 'avg_market_cap': 171460.64}
+{'count': 4, 'industry': 'Telecommunication', 'avg_market_cap': 165861.79}
+{'count': 2, 'industry': 'Life Sciences Tools & Services', 'avg_market_cap': 156157.88}
+{'count': 1, 'industry': 'Road & Rail', 'avg_market_cap': 143306.17}
+{'count': 4, 'industry': 'Hotels, Restaurants & Leisure', 'avg_market_cap': 130367.59}
+{'count': 1, 'industry': 'Insurance', 'avg_market_cap': 120907.63}
+{'count': 1, 'industry': 'Professional Services', 'avg_market_cap': 88677.05}
+{'count': 1, 'industry': 'Logistics & Transportation', 'avg_market_cap': 82306.11}
+{'count': 1, 'industry': 'Industrial Conglomerates', 'avg_market_cap': 79867.6}
+{'count': 1, 'industry': 'Food Products', 'avg_market_cap': 78520.86}
+{'count': 1, 'industry': 'Textiles, Apparel & Luxury Goods', 'avg_market_cap': 68461.42}
+{'count': 4, 'industry': 'Airlines', 'avg_market_cap': 30531.25}
+
+
+QUERY 5: High beta (volatile) stocks
+Question: Which companies have a beta > 1.5?
+{'symbol': 'COIN', 'name': 'Coinbase Global Inc', 'industry': 'Financial Services', 'metrics': {'beta': 3.333418}}
+{'symbol': 'AMD', 'name': 'Advanced Micro Devices Inc', 'industry': 'Semiconductors', 'metrics': {'beta': 2.5273728}}
+{'symbol': 'INTC', 'name': 'Intel Corp', 'industry': 'Semiconductors', 'metrics': {'beta': 2.231568}}
+{'symbol': 'NVDA', 'name': 'NVIDIA Corp', 'industry': 'Semiconductors', 'metrics': {'beta': 2.2266328}}
+{'symbol': 'SOFI', 'name': 'SoFi Technologies Inc', 'industry': 'Financial Services', 'metrics': {'beta': 2.173512}}
+{'symbol': 'F', 'name': 'Ford Motor Co', 'industry': 'Automobiles', 'metrics': {'beta': 1.7992612}}
+{'symbol': 'TSLA', 'name': 'Tesla Inc', 'industry': 'Automobiles', 'metrics': {'beta': 1.7933742}}
+{'symbol': 'ORCL', 'name': 'Oracle Corp', 'industry': 'Technology', 'metrics': {'beta': 1.6513633}}
+{'symbol': 'RIVN', 'name': 'Rivian Automotive Inc', 'industry': 'Automobiles', 'metrics': {'beta': 1.6383907}}
+{'symbol': 'QCOM', 'name': 'Qualcomm Inc', 'industry': 'Semiconductors', 'metrics': {'beta': 1.6109121}}
+{'symbol': 'CAT', 'name': 'Caterpillar Inc', 'industry': 'Machinery', 'metrics': {'beta': 1.6012889}}
+{'symbol': 'WBD', 'name': 'Warner Bros Discovery Inc', 'industry': 'Media', 'metrics': {'beta': 1.5537779}}
+{'symbol': 'PLTR', 'name': 'Palantir Technologies Inc', 'industry': 'Technology', 'metrics': {'beta': 1.5244817}}
+
+
+QUERY 6: Count of companies per industry
+Question: How many companies are in each industry?
+{'count': 10, 'industry': 'Financial Services'}
+{'count': 9, 'industry': 'Media'}
+{'count': 8, 'industry': 'Technology'}
+{'count': 7, 'industry': 'Energy'}
+{'count': 6, 'industry': 'Semiconductors'}
+{'count': 5, 'industry': 'Pharmaceuticals'}
+{'count': 5, 'industry': 'Health Care'}
+{'count': 5, 'industry': 'Automobiles'}
+{'count': 5, 'industry': 'Retail'}
+{'count': 4, 'industry': 'Hotels, Restaurants & Leisure'}
+{'count': 4, 'industry': 'Airlines'}
+{'count': 4, 'industry': 'Banking'}
+{'count': 4, 'industry': 'Telecommunication'}
+{'count': 3, 'industry': 'Biotechnology'}
+{'count': 2, 'industry': 'Beverages'}
+{'count': 2, 'industry': 'Machinery'}
+{'count': 2, 'industry': 'Life Sciences Tools & Services'}
+{'count': 2, 'industry': 'Aerospace & Defense'}
+{'count': 1, 'industry': 'Communications'}
+{'count': 1, 'industry': 'Logistics & Transportation'}
+{'count': 1, 'industry': 'Industrial Conglomerates'}
+{'count': 1, 'industry': 'Insurance'}
+{'count': 1, 'industry': 'Road & Rail'}
+{'count': 1, 'industry': 'Utilities'}
+{'count': 1, 'industry': 'Professional Services'}
+{'count': 1, 'industry': 'Food Products'}
+{'count': 1, 'industry': 'Textiles, Apparel & Luxury Goods'}
+{'count': 1, 'industry': 'Consumer products'}
+
+
+QUERY 7: Companies that beat earnings estimates
+Question: Which companies beat their most recent quarterly earnings estimate?
+{'symbol': 'AAPL', 'name': 'Apple Inc', 'latest_actual': 2.01, 'latest_estimate': 1.9884, 'latest_period': '2026-03-31'}
+{'symbol': 'MSFT', 'name': 'Microsoft Corp', 'latest_actual': 4.27, 'latest_estimate': 4.1432, 'latest_period': '2026-03-31'}
+{'symbol': 'NVDA', 'name': 'NVIDIA Corp', 'latest_actual': 1.87, 'latest_estimate': 1.7922, 'latest_period': '2026-06-30'}
+{'symbol': 'META', 'name': 'Meta Platforms Inc', 'latest_actual': 7.31, 'latest_estimate': 6.923, 'latest_period': '2026-03-31'}
+{'symbol': 'TSLA', 'name': 'Tesla Inc', 'latest_actual': 0.41, 'latest_estimate': 0.3773, 'latest_period': '2026-03-31'}
+{'symbol': 'JPM', 'name': 'JPMorgan Chase & Co', 'latest_actual': 5.94, 'latest_estimate': 5.5024, 'latest_period': '2026-03-31'}
+{'symbol': 'JNJ', 'name': 'Johnson & Johnson', 'latest_actual': 2.7, 'latest_estimate': 2.6914, 'latest_period': '2026-03-31'}
+{'symbol': 'V', 'name': 'Visa Inc', 'latest_actual': 3.31, 'latest_estimate': 3.1579, 'latest_period': '2026-03-31'}
+{'symbol': 'UNH', 'name': 'UnitedHealth Group Inc', 'latest_actual': 7.23, 'latest_estimate': 6.6406, 'latest_period': '2026-03-31'}
+{'symbol': 'MA', 'name': 'Mastercard Inc', 'latest_actual': 4.6, 'latest_estimate': 4.5329, 'latest_period': '2026-03-31'}
+
+
+QUERY 8: Highest volume trading day per company
+Question: For each company, what was the highest volume trading day in the past month?
+{'symbol': 'NVDA', 'name': 'NVIDIA Corp', 'max_volume_day': {'date': '2026-05-29', 'open': 214.58, 'high': 217.86, 'low': 211.13, 'close': 211.14, 'volume': 288291500}}
+{'symbol': 'INTC', 'name': 'Intel Corp', 'max_volume_day': {'date': '2026-05-08', 'open': 111.81, 'high': 130.57, 'low': 111.8, 'close': 124.92, 'volume': 227681300}}
+{'symbol': 'F', 'name': 'Ford Motor Co', 'max_volume_day': {'date': '2026-05-13', 'open': 11.97, 'high': 13.94, 'low': 11.97, 'close': 13.57, 'volume': 216261200}}
+{'symbol': 'SOFI', 'name': 'SoFi Technologies Inc', 'max_volume_day': {'date': '2026-05-29', 'open': 18.26, 'high': 18.59, 'low': 17.68, 'close': 18.22, 'volume': 150174000}}
+{'symbol': 'AAL', 'name': 'American Airlines Group Inc', 'max_volume_day': {'date': '2026-05-26', 'open': 14.3, 'high': 14.94, 'low': 14.29, 'close': 14.85, 'volume': 109912600}}
+{'symbol': 'AMZN', 'name': 'Amazon.com Inc', 'max_volume_day': {'date': '2026-04-30', 'open': 273.17, 'high': 273.88, 'low': 256.16, 'close': 265.06, 'volume': 100974900}}
+{'symbol': 'PLTR', 'name': 'Palantir Technologies Inc', 'max_volume_day': {'date': '2026-05-29', 'open': 147.82, 'high': 157.78, 'low': 145.79, 'close': 156.54, 'volume': 92024600}}
+{'symbol': 'AAPL', 'name': 'Apple Inc', 'max_volume_day': {'date': '2026-04-30', 'open': 270.25, 'high': 275.75, 'low': 267.89, 'close': 271.1, 'volume': 91848200}}
+{'symbol': 'T', 'name': 'AT&T Inc', 'max_volume_day': {'date': '2026-05-29', 'open': 24.86, 'high': 24.87, 'low': 24.56, 'close': 24.8, 'volume': 88283600}}
+{'symbol': 'AMD', 'name': 'Advanced Micro Devices Inc', 'max_volume_day': {'date': '2026-05-06', 'open': 409.49, 'high': 430.6, 'low': 402.04, 'close': 421.39, 'volume': 87732200}}
+
+
+QUERY 9: Monthly return for each stock
+Question: What is the monthly return based on first and last closing price?
+{'symbol': 'SNOW', 'name': 'Snowflake Inc', 'industry': 'Technology', 'first_close': 136.47, 'last_close': 255.55, 'monthly_return_pct': 87.26}
+{'symbol': 'F', 'name': 'Ford Motor Co', 'industry': 'Automobiles', 'first_close': 11.93, 'last_close': 17.44, 'monthly_return_pct': 46.19}
+{'symbol': 'AMD', 'name': 'Advanced Micro Devices Inc', 'industry': 'Semiconductors', 'first_close': 354.49, 'last_close': 516.1, 'monthly_return_pct': 45.59}
+{'symbol': 'ORCL', 'name': 'Oracle Corp', 'industry': 'Technology', 'first_close': 161.39, 'last_close': 225.78, 'monthly_return_pct': 39.9}
+{'symbol': 'QCOM', 'name': 'Qualcomm Inc', 'industry': 'Semiconductors', 'first_close': 179.58, 'last_close': 251.02, 'monthly_return_pct': 39.78}
+{'symbol': 'CSCO', 'name': 'Cisco Systems Inc', 'industry': 'Communications', 'first_close': 91.5, 'last_close': 120.42, 'monthly_return_pct': 31.61}
+{'symbol': 'IBM', 'name': 'International Business Machines Corp', 'industry': 'Technology', 'first_close': 229.29, 'last_close': 297.8, 'monthly_return_pct': 29.88}
+{'symbol': 'UAL', 'name': 'United Airlines Holdings Inc', 'industry': 'Airlines', 'first_close': 90.0, 'last_close': 114.8, 'monthly_return_pct': 27.56}
+{'symbol': 'AAL', 'name': 'American Airlines Group Inc', 'industry': 'Airlines', 'first_close': 11.71, 'last_close': 14.64, 'monthly_return_pct': 25.02}
+{'symbol': 'DAL', 'name': 'Delta Air Lines Inc', 'industry': 'Airlines', 'first_close': 67.81, 'last_close': 82.48, 'monthly_return_pct': 21.63}
+
+
+QUERY 10: Average daily trading volume by industry
+Question: Which industries have the highest average daily trading volume?
+{'num_companies': 6, 'industry': 'Semiconductors', 'avg_daily_volume': 68318633.0}
+{'num_companies': 5, 'industry': 'Automobiles', 'avg_daily_volume': 38206830.0}
+{'num_companies': 1, 'industry': 'Communications', 'avg_daily_volume': 27976814.0}
+{'num_companies': 8, 'industry': 'Technology', 'avg_daily_volume': 23953768.0}
+{'num_companies': 4, 'industry': 'Telecommunication', 'avg_daily_volume': 23736913.0}
+{'num_companies': 1, 'industry': 'Textiles, Apparel & Luxury Goods', 'avg_daily_volume': 21836276.0}
+{'num_companies': 4, 'industry': 'Airlines', 'avg_daily_volume': 21151229.0}
+{'num_companies': 1, 'industry': 'Road & Rail', 'avg_daily_volume': 20376148.0}
+{'num_companies': 4, 'industry': 'Banking', 'avg_daily_volume': 18192435.0}
+{'num_companies': 5, 'industry': 'Retail', 'avg_daily_volume': 14941380.0}
+{'num_companies': 9, 'industry': 'Media', 'avg_daily_volume': 14403751.0}
+{'num_companies': 9, 'industry': 'Financial Services', 'avg_daily_volume': 13791477.0}
+{'num_companies': 5, 'industry': 'Pharmaceuticals', 'avg_daily_volume': 13581975.0}
+{'num_companies': 1, 'industry': 'Utilities', 'avg_daily_volume': 12677162.0}
+{'num_companies': 2, 'industry': 'Beverages', 'avg_daily_volume': 10856871.0}
+{'num_companies': 7, 'industry': 'Energy', 'avg_daily_volume': 10783712.0}
+{'num_companies': 1, 'industry': 'Consumer products', 'avg_daily_volume': 8299395.0}
+{'num_companies': 1, 'industry': 'Food Products', 'avg_daily_volume': 7241714.0}
+{'num_companies': 5, 'industry': 'Health Care', 'avg_daily_volume': 7172051.0}
+{'num_companies': 2, 'industry': 'Aerospace & Defense', 'avg_daily_volume': 6459426.0}
+{'num_companies': 1, 'industry': 'Logistics & Transportation', 'avg_daily_volume': 6394600.0}
+{'num_companies': 4, 'industry': 'Hotels, Restaurants & Leisure', 'avg_daily_volume': 5884465.0}
+{'num_companies': 3, 'industry': 'Biotechnology', 'avg_daily_volume': 5060802.0}
+{'num_companies': 1, 'industry': 'Industrial Conglomerates', 'avg_daily_volume': 4046181.0}
+{'num_companies': 2, 'industry': 'Life Sciences Tools & Services', 'avg_daily_volume': 3754148.0}
+{'num_companies': 1, 'industry': 'Professional Services', 'avg_daily_volume': 2836138.0}
+{'num_companies': 2, 'industry': 'Machinery', 'avg_daily_volume': 2023257.0}
+{'num_companies': 1, 'industry': 'Insurance', 'avg_daily_volume': 1591938.0}
